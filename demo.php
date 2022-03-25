@@ -5,7 +5,7 @@
 		<title>Basic Forms</title>
 	</head>
 	<body>
-		<form>
+		<form method="GET" action="process_demo.php">
 			<input 
 				type = "text" 
 				name="fullname"
@@ -22,26 +22,19 @@
 			</select>
 			
 			</br></br>
-			<p>Select your sex: </p>
-				<input type="radio" id="male" name="sex" value="Male">
-				<label for="male">Male</label><br/>
-				<input type="radio" id="female" name="sex" value="Female">
-				<label for="female">Female</label><br/>
-			
-			</br>
-			
+					
 			<p>Select your marital status: </p>
 			<p>
-				<input type = "radio" name="attainment" value="S" /> Single
+				<input type = "radio" name="status" value="S" /> Single
 			</p>
 			<p>
-				<input type = "radio" name="attainment" value="MA" /> Married
+				<input type = "radio" name="status" value="M" /> Married
 			</p>
 			<p>
-				<input type = "radio" name="attainment" value="W" /> Widowed
+				<input type = "radio" name="status" value="W" /> Widowed
 			</p>
 			<p>
-				<input type = "radio" name="attainment" value="D" /> Divorced
+				<input type = "radio" name="status" value="D" /> Divorced
 			</p>
 			
 			<br/><br/>
